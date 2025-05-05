@@ -17,3 +17,9 @@
 
   <!-- </div> -->
 </div>
+
+<pagination
+[pages]="productsResource.value()?.pages ?? 0"
+[courrentPage]="PaginationService.courrentPage()"
+/>
+
